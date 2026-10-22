@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sample interface design certificate placeholder</title>
+  <desc id="desc">A decorative dark sample certificate preview for an interface design course, clearly labeled as a placeholder.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#2b3226"/><stop offset="1" stop-color="#161c16"/></linearGradient><pattern id="lines" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0v18" stroke="#c9f875" stroke-opacity=".07"/></pattern></defs>
+  <path fill="url(#bg)" d="M0 0h800v520H0z"/>
+  <rect x="67" y="59" width="666" height="402" rx="3" fill="#1a2119" stroke="#65754e"/>
+  <path d="M67 59h140v402H67z" fill="url(#lines)"/>
+  <path d="M88 80h624v360H88z" fill="none" stroke="#546541"/>
+  <path d="M207 80v360" stroke="#546541"/>
+  <g transform="translate(147 198)"><path d="M0-42 36-21v42L0 42-36 21v-42z" fill="none" stroke="#c9f875"/><path d="m0-26 23 13v26L0 26-23-13v-26z" fill="#c9f875" fill-opacity=".12" stroke="#809d58"/><path d="m-12 0 8 8 17-18" fill="none" stroke="#c9f875" stroke-width="2"/></g>
+  <text x="147" y="290" text-anchor="middle" fill="#9fb882" font-family="Arial, sans-serif" font-size="9" letter-spacing="3" transform="rotate(-90 147 290)">KEEP CREATING</text>
+  <rect x="249" y="111" width="78" height="21" rx="10.5" fill="#35442a"/>
+  <text x="288" y="125" text-anchor="middle" fill="#c9f875" font-family="Arial, sans-serif" font-size="8" letter-spacing="2">SAMPLE</text>
+  <text x="249" y="188" fill="#eff3e9" font-family="Georgia, serif" font-size="36">Certificate</text>
+  <text x="249" y="214" fill="#a4b08f" font-family="Arial, sans-serif" font-size="10" letter-spacing="3">OF COMPLETION</text>
+  <path d="M249 237h420" stroke="#3e4e32"/>
+  <text x="249" y="268" fill="#839277" font-family="Arial, sans-serif" font-size="9">THIS IS A PREVIEW FOR YOUR CERTIFICATE</text>
+  <text x="249" y="307" fill="#c9f875" font-family="Georgia, serif" font-size="30" font-style="italic">Your Name</text>
+  <text x="249" y="339" fill="#c6d1ba" font-family="Arial, sans-serif" font-size="12">Interface Design</text>
+  <text x="249" y="359" fill="#7f8d73" font-family="Arial, sans-serif" font-size="9">Replace with your own earned credential</text>
+  <path d="M249 393h174m72 0h174" stroke="#485b39"/>
+  <g fill="#7e906c" font-family="Arial, sans-serif" font-size="7" letter-spacing="1"><text x="249" y="408">ISSUING ORGANIZATION</text><text x="495" y="408">DATE OF COMPLETION</text></g>
+</svg>

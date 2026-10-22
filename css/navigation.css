@@ -1,0 +1,122 @@
+/* A colorful taskbar with room for every destination, even on small screens. */
+html {
+    scroll-padding-bottom: calc(116px + env(safe-area-inset-bottom, 0px));
+}
+
+body {
+    padding-bottom: calc(116px + env(safe-area-inset-bottom, 0px));
+}
+
+.navigation-island {
+    position: fixed;
+    z-index: 60;
+    left: 50%;
+    bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+    width: min(570px, calc(100% - 28px));
+    padding: 8px;
+    border: 3px solid var(--line);
+    border-radius: 0;
+    background: var(--line);
+    box-shadow: 6px 6px 0 var(--pink);
+    transform: translateX(-50%);
+}
+
+.island-links {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.island-links > li {
+    min-width: 0;
+}
+.island-links > li:nth-child(1) { --dock-color: var(--yellow); }
+.island-links > li:nth-child(2) { --dock-color: var(--pink); }
+.island-links > li:nth-child(3) { --dock-color: var(--cyan); }
+.island-links > li:nth-child(4) { --dock-color: var(--surface-raised); }
+.island-links > li:nth-child(5) { --dock-color: var(--orange); }
+
+.island-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-width: 0;
+    min-height: 64px;
+    padding: 8px 2px;
+    border: 2px solid var(--line);
+    border-radius: 0;
+    color: var(--text);
+    background: var(--dock-color);
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.2;
+    transition: background .15s ease, color .15s ease, transform .15s ease;
+}
+
+.island-link .icon {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2.4;
+}
+
+.island-link:hover {
+    color: var(--text);
+    background: var(--accent);
+    border-color: var(--line);
+    transform: translateY(-3px) rotate(-2deg);
+}
+
+.island-link.active,
+.island-link[aria-current="location"] {
+    color: #fff;
+    background: var(--blue);
+    border-color: var(--line);
+    box-shadow: 2px 2px 0 var(--accent);
+}
+
+.island-link:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+}
+
+body:has(dialog[open]) .navigation-island {
+    visibility: hidden;
+}
+
+@media (max-width: 767.98px) {
+    .island-link {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 389.98px) {
+    .navigation-island {
+        bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+        width: calc(100% - 20px);
+        padding: 6px;
+    }
+
+    .island-links {
+        gap: 3px;
+    }
+
+    .island-link {
+        min-height: 59px;
+        font-size: 10px;
+        padding-inline: 1px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .island-link,
+    .island-link:hover {
+        transform: none;
+        transition: none;
+    }
+}

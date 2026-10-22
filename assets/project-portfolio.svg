@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Creative portfolio project preview</title>
+  <desc id="desc">A sample graphic design portfolio with oversized type and abstract geometric artwork.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#242b23"/><stop offset="1" stop-color="#141815"/></linearGradient><linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6ffc5"/><stop offset=".5" stop-color="#a9db70"/><stop offset="1" stop-color="#385925"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v520H0z"/>
+  <rect x="59" y="48" width="682" height="433" rx="12" fill="#151816" stroke="#454d3e"/>
+  <path d="M71 48h658a12 12 0 0 1 12 12v23H59V60a12 12 0 0 1 12-12" fill="#252b23"/>
+  <g fill="#63705a"><circle cx="78" cy="66" r="3"/><circle cx="90" cy="66" r="3"/><circle cx="102" cy="66" r="3"/></g>
+  <rect x="315" y="57" width="171" height="17" rx="5" fill="#1a1f18"/>
+  <text x="400" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b9684">studio / selected work</text>
+  <text x="88" y="120" fill="#f0f4ea" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="-1">form®</text>
+  <g fill="#a6afa0" font-family="Arial, sans-serif" font-size="8"><text x="537" y="117">WORK</text><text x="590" y="117">ABOUT</text><text x="648" y="117">LET'S TALK ↗</text></g>
+  <path d="M88 138h624" stroke="#30382c"/>
+  <g fill="#ecf0e6" font-family="Arial, sans-serif" font-size="67" font-weight="900" letter-spacing="-4"><text x="87" y="220">Ideas into</text><text x="87" y="286">something</text><text x="87" y="352" fill="#c9f875">unexpected.</text></g>
+  <text x="91" y="388" fill="#8d9885" font-family="Arial, sans-serif" font-size="9">Independent design. Thoughtful digital experiences.</text>
+  <g transform="translate(577 236) rotate(-23)">
+    <ellipse rx="90" ry="40" fill="none" stroke="#38542c" stroke-width="27" transform="rotate(65)"/>
+    <ellipse rx="90" ry="40" fill="none" stroke="url(#orb)" stroke-width="27" transform="rotate(-17)"/>
+    <path d="M-38-65c-33 10-49 36-35 65" fill="none" stroke="#d5f3b0" stroke-width="23"/>
+  </g>
+  <path d="M88 418h624" stroke="#30382c"/>
+  <text x="90" y="447" fill="#a7b19f" font-family="Arial, sans-serif" font-size="8" letter-spacing="1.5">SELECTED WORK — 2026</text>
+  <text x="659" y="447" fill="#c9f875" font-family="Arial, sans-serif" font-size="20">↙</text>
+</svg>

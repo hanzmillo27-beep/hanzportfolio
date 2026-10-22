@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hanz's personal portfolio — a space for web projects, creative experiments, and continuous learning.">
+    <meta name="theme-color" content="#3048ef">
+    <title>Hanz — Developer &amp; Creative Thinker</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23ff5aab' stroke='%2321152f' stroke-width='4' d='M2 2h60v60H2z'/%3E%3Cpath fill='%2321152f' d='M16 14h8v14h16V14h8v36h-8V36H24v14h-8z'/%3E%3C/svg%3E">
+    <link rel="preload" href="assets/fonts/ArchivoBlack-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/VT323-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/portrait-scroll.css">
+    <link rel="stylesheet" href="css/project-select.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/portfolio.js" defer></script>
+    <script src="js/navigation-motion.js" defer></script>
+    <script src="js/project-select.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Shared icons. All icons are decorative; visible text labels describe the controls. -->
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+        <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7M5 9v11h5v-7h4v7h5V9"/></symbol>
+        <symbol id="icon-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+        <symbol id="icon-user" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol>
+        <symbol id="icon-spark" viewBox="0 0 24 24"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7L12 2Z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+        <symbol id="icon-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="m8.5 12-1 9 4.5-3 4.5 3-1-9"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+        <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    </svg>
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md container site-container" aria-label="Main navigation">
+            <a class="navbar-brand brand-lockup" href="#home" aria-label="Hanz, home"><span class="navbar-avatar" aria-hidden="true"></span><span class="wordmark brand-wordmark">hanz<span>.</span></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-navigation" aria-controls="site-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="site-navigation">
+                <ul class="navbar-nav mx-auto nav-links">
+                    <li class="nav-item"><a class="nav-link site-nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link site-nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link site-nav-link" href="#certificates">Certificates</a></li>
+                </ul>
+                <a class="button button-small button-outline nav-contact" href="#contact">Let's talk</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="home" class="hero-section section-anchor">
+            <div class="container site-container">
+                <div class="row align-items-center hero-row">
+                    <div class="col-lg-7 hero-copy">
+                        <p class="eyebrow speech-label">Meet the developer!</p>
+                        <h1><span class="hello-line">Hi, I'm</span> <span class="highlight-word">Hanz</span><span class="accent">!</span></h1>
+                        <p class="hero-intro"><strong>Developer &amp; creative thinker.</strong><br>I turn ideas into thoughtful things for the web.<br>A little code. A lot of curiosity.</p>
+                        <div class="d-flex flex-wrap align-items-center gap-3 hero-actions">
+                            <a class="button button-primary" href="#projects">Explore my work</a>
+                            <a class="button button-outline" href="assets/resume/Hanz_Barroga_Designed_Resume.pdf" download="Hanz-Barroga-Resume.pdf">Download résumé<svg class="icon" aria-hidden="true"><use href="#icon-download"/></svg></a>
+                        </div>
+                        <a class="hero-footnote" href="#about"><span class="tiny-line" aria-hidden="true">↳</span> A little more about me</a>
+                        <div class="quest-note"><span class="quest-title">CURRENT QUEST</span><span><span class="status-dot" aria-hidden="true"></span> Always learning. Always making.</span></div>
+                    </div>
+                    <div class="col-lg-5 portrait-column">
+                        <div class="portrait-scene tilt-scene">
+                            <div class="maximal-sticker" aria-hidden="true"><span>CODE.<br>CREATE.<br>REPEAT.</span></div>
+                            <div class="portrait-backplate" aria-hidden="true"></div>
+                            <article class="portrait-card tilt-card">
+                                <div class="portrait-topline"><span>HANZ / PROFILE.PNG</span><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></div>
+                             
+                                <div class="portrait-image-wrap"><img class="portrait-image" src="assets/photo.jpg" width="960" height="958" alt="Portrait of Hanz" fetchpriority="high"></div>
+                                <div class="portrait-caption"><div><p class="portrait-name">Hanz<span class="accent">.</span></p><p class="portrait-role">Developer &amp; creative thinker</p></div><span class="portrait-symbol" aria-hidden="true">✳</span></div>
+                            </article>
+                            <div class="floating-code" aria-hidden="true"><span class="code-dot"></span><span>&lt;hello world /&gt;</span></div>
+                            <span class="portrait-orbit" aria-hidden="true">+</span>
+                            <div class="desk-inventory" aria-hidden="true"><img src="assets/pixel-desk.svg" width="520" height="120" alt=""><span>DESK INVENTORY</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-bottom"><span>CODE + DESIGN + A LITTLE CURIOSITY</span><a href="#projects">OPEN PROJECT FILES <span aria-hidden="true">↓</span></a></div>
+            </div>
+        </section>
+
+        <div class="statement-strip" aria-hidden="true"><div>IDEAS INTO PIXELS <span>✦</span> MAKE SOMETHING GOOD <span>✦</span> ALWAYS CURIOUS <span>✦</span> IDEAS INTO PIXELS <span>✦</span> MAKE SOMETHING GOOD <span>✦</span></div></div>
+
+        <section id="projects" class="section-block section-anchor arcade-projects">
+            <div class="container site-container">
+                <div class="section-heading">
+                    <div><p class="eyebrow section-eyebrow"><span>01 /</span> PROJECTS</p><h2 id="projects-title">Choose your project<span class="accent">_</span></h2></div>
+                    <p class="section-description">Three projects. Choose one to explore.<br>Select a card and press Start project.</p>
+                </div>
+                <div id="project-select" class="project-select" role="region" aria-labelledby="projects-title" aria-describedby="project-select-help">
+                    <article class="arcade-card arcade-warrior" data-project-card aria-labelledby="project-warrior-title">
+                        <span class="player-marker" aria-hidden="true">P1</span>
+                        <p class="arcade-class">PROJECT 01</p>
+                        <img class="arcade-project-image" src="assets/Projects/centsible.jpeg" width="487" height="908" alt="Centsible money planner showing income, expenses, savings, and bill reminders" loading="lazy">
+                        <div class="arcade-stats" aria-hidden="true">
+                            <div class="arcade-stat stat-hp"><span>HP</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                            <div class="arcade-stat stat-at"><span>AT</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                            <div class="arcade-stat stat-df"><span>DF</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                        </div>
+                        <h3 id="project-warrior-title">Centsible</h3>
+                        <p class="arcade-project-type">PERSONAL FINANCE APP</p>
+                        <button class="arcade-open" type="button" data-preview data-title="Centsible" data-category="PROJECT / PERSONAL FINANCE APP" data-description="A personal finance app with a monthly money plan, income and expense summaries, a suggested savings allocation, and a daily spending target. Bill reminders and daily expense tracking help keep the plan in view." data-image="assets/Projects/centsible.jpeg" data-tags="Budgeting,Expense tracking,Savings" aria-label="Explore Centsible" aria-haspopup="dialog" aria-controls="preview-dialog">Start project <span aria-hidden="true">▸</span></button>
+                    </article>
+                    <article class="arcade-card arcade-mage is-selected" data-project-card aria-labelledby="project-mage-title">
+                        <span class="player-marker" aria-hidden="true">P1</span>
+                        <p class="arcade-class">PROJECT 02</p>
+                        <img class="arcade-project-image" src="assets/Projects/klasik_grounds.jpeg" width="1895" height="928" alt="Klasik Grounds web dashboard showing profit charts, expenses, and inventory" loading="lazy">
+                        <div class="arcade-stats" aria-hidden="true">
+                            <div class="arcade-stat stat-hp"><span>HP</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                            <div class="arcade-stat stat-at"><span>AT</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                            <div class="arcade-stat stat-df"><span>DF</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                        </div>
+                        <h3 id="project-mage-title">Klasik Grounds Web</h3>
+                        <p class="arcade-project-type">CAFE MANAGEMENT / WEB</p>
+                        <button class="arcade-open" type="button" data-preview data-title="Klasik Grounds Web" data-category="PROJECT / CAFE MANAGEMENT / WEB" data-description="A web dashboard for Klasik Grounds Cafe that brings weekly profit, expense summaries, stock levels, and low-stock alerts into one view. The workspace includes products, categories, inventory, point of sale, users, and reports." data-image="assets/Projects/klasik_grounds.jpeg" data-tags="Point of sale,Inventory,Reports" aria-label="Explore Klasik Grounds Web" aria-haspopup="dialog" aria-controls="preview-dialog">Start project <span aria-hidden="true">▸</span></button>
+                    </article>
+                    <article class="arcade-card arcade-rogue" data-project-card aria-labelledby="project-rogue-title">
+                        <span class="player-marker" aria-hidden="true">P1</span>
+                        <p class="arcade-class">PROJECT 03</p>
+                        <img class="arcade-project-image" src="assets/Projects/klasik_grounds_app.jpeg" width="541" height="936" alt="Klasik Grounds app showing orders, menu favorites, and inventory alerts" loading="lazy">
+                        <div class="arcade-stats" aria-hidden="true">
+                            <div class="arcade-stat stat-hp"><span>HP</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                            <div class="arcade-stat stat-at"><span>AT</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                            <div class="arcade-stat stat-df"><span>DF</span><span class="stat-track"><span class="stat-fill"></span></span></div>
+                        </div>
+                        <h3 id="project-rogue-title">Klasik Grounds App</h3>
+                        <p class="arcade-project-type">CAFE MANAGEMENT / APP</p>
+                        <button class="arcade-open" type="button" data-preview data-title="Klasik Grounds App" data-category="PROJECT / CAFE MANAGEMENT / APP" data-description="The Klasik Grounds app presents a daily cafe overview with recent orders, menu favorites, and out-of-stock counts. Its navigation keeps the overview, menu, and inventory within easy reach." data-image="assets/Projects/klasik_grounds_app.jpeg" data-tags="Orders,Menu,Inventory" aria-label="Explore Klasik Grounds App" aria-haspopup="dialog" aria-controls="preview-dialog">Start project <span aria-hidden="true">▸</span></button>
+                    </article>
+                </div>
+                <div class="arcade-console">
+                    <p class="arcade-selection" aria-live="polite" aria-atomic="true"><span>PLAYER 1 /</span> <span id="project-selection-label">Klasik Grounds Web</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-anchor">
+            <div class="container site-container">
+                <div class="row align-items-start about-row">
+                    <div class="col-lg-5"><p class="eyebrow section-eyebrow"><span>02 /</span> A LITTLE ABOUT ME</p><h2>Curious by nature.<br>Creative by choice<span class="accent">.</span></h2></div>
+                    <div class="col-lg-6 offset-lg-1 about-copy">
+                        <p>I'm Hanz. I enjoy the space where design meets development — turning a blank canvas into something useful, intuitive, and a little unexpected.</p>
+                        <p>This is my corner of the web for projects, small experiments, and the things I learn along the way.</p>
+                        <p class="skills-label">MY TOOLBOX / INVENTORY</p>
+                        <div class="skills-list"><span><span class="skill-dot html-dot"></span>HTML5</span><span><span class="skill-dot css-dot"></span>CSS3</span><span><span class="skill-dot js-dot"></span>JavaScript</span><span><span class="skill-dot bootstrap-dot"></span>Bootstrap</span><span><svg class="icon"><use href="#icon-code"/></svg>Git</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section-block certificates-section section-anchor">
+            <div class="container site-container">
+                <div class="section-heading">
+                    <div><p class="eyebrow section-eyebrow"><span>03 /</span> ACHIEVEMENTS</p><h2>Learning never stops<span class="accent">.</span></h2></div>
+                    <p class="section-description">Milestones in programming, networking, and computer systems.<br>Explore the certificates behind the learning.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/csharp.jpeg" width="1228" height="823" alt="Foundational C# with Microsoft certificate from freeCodeCamp" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>PROGRAMMING</span></div>
+                                <h3>Foundational C# with Microsoft</h3>
+                                <p>freeCodeCamp / Microsoft <span aria-hidden="true">·</span> <time datetime="2026-10-15">Oct 15, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/csharp.jpeg" target="_blank" rel="noopener" data-preview data-title="Foundational C# with Microsoft" data-category="CERTIFICATE / PROGRAMMING" data-description="Foundational C# with Microsoft, completed through freeCodeCamp on October 15, 2026." data-image="assets/certificates/csharp.jpeg" data-file="assets/certificates/csharp.jpeg" data-file-label="Open full-size certificate" data-tags="C#,freeCodeCamp,Microsoft" aria-label="View certificate: Foundational C# with Microsoft">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/cisco1.png" width="720" height="488" alt="Getting Started with Cisco Packet Tracer certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>NETWORKING</span></div>
+                                <h3>Getting Started with Cisco Packet Tracer</h3>
+                                <p>Cisco Networking Academy <span aria-hidden="true">·</span> <time datetime="2026-09-25">Sep 25, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/cisco1.pdf" target="_blank" rel="noopener" data-preview data-title="Getting Started with Cisco Packet Tracer" data-category="CERTIFICATE / NETWORKING" data-description="Getting Started with Cisco Packet Tracer, completed through Cisco Networking Academy on September 25, 2026." data-image="assets/certificates/previews/cisco1.png" data-file="assets/certificates/cisco1.pdf" data-file-label="Open original PDF" data-tags="Cisco,Packet Tracer,Networking" aria-label="View certificate: Getting Started with Cisco Packet Tracer">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/cisco2.png" width="720" height="488" alt="Introduction to IoT and Digital Transformation certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>NETWORKING</span></div>
+                                <h3>Introduction to IoT and Digital Transformation</h3>
+                                <p>Cisco Networking Academy <span aria-hidden="true">·</span> <time datetime="2026-09-27">Sep 27, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/cisco2.pdf" target="_blank" rel="noopener" data-preview data-title="Introduction to IoT and Digital Transformation" data-category="CERTIFICATE / NETWORKING" data-description="Introduction to IoT and Digital Transformation, completed through Cisco Networking Academy on September 27, 2026." data-image="assets/certificates/previews/cisco2.png" data-file="assets/certificates/cisco2.pdf" data-file-label="Open original PDF" data-tags="Cisco,IoT,Digital transformation" aria-label="View certificate: Introduction to IoT and Digital Transformation">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/tesda1.png" width="720" height="509" alt="Installing and Configuring Computer Systems certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>COMPUTER SYSTEMS</span></div>
+                                <h3>Installing and Configuring Computer Systems</h3>
+                                <p>TESDA Online Program <span aria-hidden="true">·</span> <time datetime="2026-10-08">Oct 8, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/tesda1.pdf" target="_blank" rel="noopener" data-preview data-title="Installing and Configuring Computer Systems" data-category="CERTIFICATE / COMPUTER SYSTEMS" data-description="Course completion certificate for Installing and Configuring Computer Systems, earned through the TESDA Online Program on October 8, 2026." data-image="assets/certificates/previews/tesda1.png" data-file="assets/certificates/tesda1.pdf" data-file-label="Open original PDF" data-tags="TESDA,Computer systems,Installation" aria-label="View certificate: Installing and Configuring Computer Systems">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/tesda2.png" width="720" height="509" alt="Introduction to Computer Systems Servicing certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>COMPUTER SYSTEMS</span></div>
+                                <h3>Introduction to Computer Systems Servicing</h3>
+                                <p>TESDA Online Program <span aria-hidden="true">·</span> <time datetime="2026-10-08">Oct 8, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/tesda2.pdf" target="_blank" rel="noopener" data-preview data-title="Introduction to Computer Systems Servicing" data-category="CERTIFICATE / COMPUTER SYSTEMS" data-description="Course completion certificate for Introduction to Computer Systems Servicing, earned through the TESDA Online Program on October 8, 2026." data-image="assets/certificates/previews/tesda2.png" data-file="assets/certificates/tesda2.pdf" data-file-label="Open original PDF" data-tags="TESDA,Computer systems,Servicing" aria-label="View certificate: Introduction to Computer Systems Servicing">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/tesda3.png" width="720" height="509" alt="Maintaining Computer Systems and Networks certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>COMPUTER SYSTEMS</span></div>
+                                <h3>Maintaining Computer Systems and Networks</h3>
+                                <p>TESDA Online Program <span aria-hidden="true">·</span> <time datetime="2026-10-08">Oct 8, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/tesda3.pdf" target="_blank" rel="noopener" data-preview data-title="Maintaining Computer Systems and Networks" data-category="CERTIFICATE / COMPUTER SYSTEMS" data-description="Course completion certificate for Maintaining Computer Systems and Networks, earned through the TESDA Online Program on October 8, 2026." data-image="assets/certificates/previews/tesda3.png" data-file="assets/certificates/tesda3.pdf" data-file-label="Open original PDF" data-tags="TESDA,Maintenance,Networks" aria-label="View certificate: Maintaining Computer Systems and Networks">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/tesda4.png" width="720" height="509" alt="Setting Up Computer Networks certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>COMPUTER NETWORKS</span></div>
+                                <h3>Setting Up Computer Networks</h3>
+                                <p>TESDA Online Program <span aria-hidden="true">·</span> <time datetime="2026-09-11">Sep 11, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/tesda4.pdf" target="_blank" rel="noopener" data-preview data-title="Setting Up Computer Networks" data-category="CERTIFICATE / NETWORKING" data-description="Course completion certificate for Setting Up Computer Networks, earned through the TESDA Online Program on September 11, 2026." data-image="assets/certificates/previews/tesda4.png" data-file="assets/certificates/tesda4.pdf" data-file-label="Open original PDF" data-tags="TESDA,Networking,Configuration" aria-label="View certificate: Setting Up Computer Networks">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 tilt-scene">
+                        <article class="certificate-card tilt-card">
+                            <div class="certificate-art"><img src="assets/certificates/previews/tesda5.png" width="720" height="509" alt="Setting Up Computer Servers certificate" loading="lazy"></div>
+                            <div class="certificate-info">
+                                <div class="certificate-meta"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>COMPUTER SYSTEMS</span></div>
+                                <h3>Setting Up Computer Servers</h3>
+                                <p>TESDA Online Program <span aria-hidden="true">·</span> <time datetime="2026-10-09">Oct 9, 2026</time></p>
+                                <a class="certificate-link" href="assets/certificates/tesda5.pdf" target="_blank" rel="noopener" data-preview data-title="Setting Up Computer Servers" data-category="CERTIFICATE / COMPUTER SYSTEMS" data-description="Course completion certificate for Setting Up Computer Servers, earned through the TESDA Online Program on October 9, 2026." data-image="assets/certificates/previews/tesda5.png" data-file="assets/certificates/tesda5.pdf" data-file-label="Open original PDF" data-tags="TESDA,Servers,Configuration" aria-label="View certificate: Setting Up Computer Servers">View certificate</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-anchor">
+            <div class="container site-container">
+                <div class="contact-panel">
+                    <div class="contact-spark" aria-hidden="true">✳</div>
+                    <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+                    <h2>Good things start<br>with a <span>conversation.</span></h2>
+                    <p>A project, an idea, or just a hello. My inbox is open.</p>
+                    <!-- Replace both occurrences of hello@example.com with your email address. -->
+                    <a class="button button-primary" href="mailto:hanzmillo27@gmail.com">Say hello</a>
+                    <span class="contact-address">hanzmillo27@gmail.com/span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="container site-container footer-inner"><a class="wordmark" href="#home" aria-label="Hanz, back to top">hanz<span>.</span></a><p>© <span id="year">2026</span> Hanz. Made with care &amp; a little caffeine.</p><a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+
+    <nav class="navigation-island" aria-label="Section navigation">
+        <ul class="island-links">
+            <li><a class="island-link site-nav-link active" href="#home" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#icon-home"/></svg><span>Home</span></a></li>
+            <li><a class="island-link site-nav-link" href="#projects"><svg class="icon" aria-hidden="true"><use href="#icon-grid"/></svg><span>Projects</span></a></li>
+            <li><a class="island-link site-nav-link" href="#about"><svg class="icon" aria-hidden="true"><use href="#icon-user"/></svg><span>About</span></a></li>
+            <li><a class="island-link site-nav-link" href="#certificates" aria-label="Certificates"><svg class="icon" aria-hidden="true"><use href="#icon-award"/></svg><span>Certs</span></a></li>
+            <li><a class="island-link site-nav-link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <dialog id="preview-dialog" class="preview-dialog" aria-labelledby="preview-title" aria-describedby="preview-description">
+        <div class="preview-content">
+            <button class="dialog-close" type="button" data-close-dialog aria-label="Close preview"><svg class="icon"><use href="#icon-close"/></svg></button>
+            <img id="preview-image" class="preview-image" alt="">
+            <div class="preview-copy"><p id="preview-category" class="eyebrow"></p><h2 id="preview-title"></h2><p id="preview-description"></p><div id="preview-tags" class="tech-tags"></div><a id="preview-file" class="button button-outline button-small preview-file" target="_blank" rel="noopener" hidden></a></div>
+        </div>
+    </dialog>
+</body>
+</html>

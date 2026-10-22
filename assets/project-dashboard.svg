@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Analytics dashboard project preview</title>
+  <desc id="desc">A sample dark analytics dashboard with a lime revenue chart and overview cards.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#282e24"/><stop offset="1" stop-color="#151915"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c9f875" stop-opacity=".25"/><stop offset="1" stop-color="#c9f875" stop-opacity="0"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v520H0z"/>
+  <circle cx="665" cy="55" r="230" fill="#c9f875" opacity=".025"/>
+  <rect x="59" y="48" width="682" height="433" rx="12" fill="#0e120f" stroke="#454d3e"/>
+  <path d="M71 48h658a12 12 0 0 1 12 12v23H59V60a12 12 0 0 1 12-12" fill="#20251e"/>
+  <g fill="#5b6454"><circle cx="78" cy="66" r="3"/><circle cx="90" cy="66" r="3"/><circle cx="102" cy="66" r="3"/></g>
+  <rect x="315" y="57" width="171" height="17" rx="5" fill="#151914"/>
+  <text x="400" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b9684">pulse / overview</text>
+  <path d="M59 83h137v398H71a12 12 0 0 1-12-12" fill="#171c16"/>
+  <rect x="77" y="103" width="19" height="19" rx="5" fill="#c9f875"/>
+  <path d="M82 113h4l2-5 3 9 2-4" fill="none" stroke="#27341d" stroke-width="1.5"/>
+  <text x="103" y="117" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#edf2e7">pulse</text>
+  <rect x="72" y="147" width="111" height="29" rx="5" fill="#c9f875" fill-opacity=".12"/>
+  <g font-family="Arial, sans-serif" font-size="9"><text x="92" y="165" fill="#c9f875">Overview</text><text x="92" y="201" fill="#798573">Analytics</text><text x="92" y="237" fill="#798573">Customers</text><text x="92" y="273" fill="#798573">Products</text><text x="92" y="309" fill="#798573">Reports</text></g>
+  <g fill="#738269"><rect x="80" y="157" width="5" height="5" rx="1"/><circle cx="82.5" cy="197" r="2.5"/><circle cx="82.5" cy="233" r="2.5"/><rect x="80" y="266" width="5" height="5" rx="1"/><rect x="80" y="302" width="5" height="5" rx="1"/></g>
+  <text x="219" y="120" fill="#eff3e9" font-family="Arial, sans-serif" font-size="20" font-weight="700">Overview</text>
+  <text x="219" y="139" fill="#7d8976" font-family="Arial, sans-serif" font-size="9">A little insight. A lot of possibility.</text>
+  <rect x="623" y="104" width="94" height="25" rx="5" fill="#20271c" stroke="#3d4933"/>
+  <text x="670" y="120" fill="#b7c4ab" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Last 30 days⌄</text>
+  <g fill="#1a2018" stroke="#2e3828"><rect x="219" y="160" width="155" height="76" rx="7"/><rect x="390" y="160" width="155" height="76" rx="7"/><rect x="561" y="160" width="156" height="76" rx="7"/></g>
+  <g font-family="Arial, sans-serif"><g fill="#8e9b85" font-size="9"><text x="234" y="181">TOTAL REVENUE</text><text x="405" y="181">ACTIVE USERS</text><text x="576" y="181">CONVERSION</text></g><g fill="#edf4e4" font-size="22" font-weight="700"><text x="234" y="210">$24,580</text><text x="405" y="210">12,482</text><text x="576" y="210">8.42%</text></g><g fill="#c9f875" font-size="7"><text x="234" y="225">↗ 18.6% this month</text><text x="405" y="225">↗ 12.4% this month</text><text x="576" y="225">↗ 4.2% this month</text></g></g>
+  <rect x="219" y="252" width="322" height="207" rx="7" fill="#171d16" stroke="#2e3828"/>
+  <text x="235" y="276" fill="#d5dfce" font-family="Arial, sans-serif" font-size="11">Revenue over time</text>
+  <g stroke="#2c3527" stroke-width="1"><path d="M251 313h269M251 350h269M251 387h269M251 424h269"/></g>
+  <path d="M251 409l22-9 22 4 22-37 22 8 22-25 22 10 22-37 22 9 22-27 22 9 27-30v140H251z" fill="url(#area)"/>
+  <path d="M251 409l22-9 22 4 22-37 22 8 22-25 22 10 22-37 22 9 22-27 22 9 27-30" fill="none" stroke="#c9f875" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="498" cy="284" r="4" fill="#c9f875" stroke="#171d16" stroke-width="2"/>
+  <g fill="#67735f" font-family="Arial, sans-serif" font-size="7"><text x="249" y="442">MON</text><text x="292" y="442">TUE</text><text x="336" y="442">WED</text><text x="380" y="442">THU</text><text x="424" y="442">FRI</text><text x="467" y="442">SAT</text><text x="509" y="442">SUN</text></g>
+  <rect x="557" y="252" width="160" height="207" rx="7" fill="#171d16" stroke="#2e3828"/>
+  <text x="573" y="276" fill="#d5dfce" font-family="Arial, sans-serif" font-size="11">Traffic sources</text>
+  <circle cx="637" cy="339" r="37" fill="none" stroke="#303b29" stroke-width="12"/>
+  <circle cx="637" cy="339" r="37" fill="none" stroke="#c9f875" stroke-width="12" stroke-dasharray="145 233" transform="rotate(-90 637 339)"/>
+  <text x="637" y="343" text-anchor="middle" fill="#e3ecd9" font-family="Arial, sans-serif" font-size="15" font-weight="700">62%</text>
+  <circle cx="576" cy="405" r="3" fill="#c9f875"/><circle cx="576" cy="430" r="3" fill="#4d613c"/>
+  <g fill="#85937b" font-family="Arial, sans-serif" font-size="8"><text x="586" y="408">Organic search</text><text x="586" y="433">Direct &amp; referral</text></g>
+</svg>

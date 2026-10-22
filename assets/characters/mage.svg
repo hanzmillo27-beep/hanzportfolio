@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40" fill="none" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">Pink pixel mage</title>
+  <path fill="#7B458D" d="M14 2h4v4h4v4h2v4h4v4h-6v4h4v12h-4v2h-6v-4h-2v4H8v-2H4V22h6v-4H4v-4h4v-4h4V6h2z"/>
+  <path fill="#BE77CC" d="M14 4h4v4h4v6H10v-4h4zM8 20h16v4h2v8h-4v-4H10v4H6v-8h2z"/>
+  <path fill="#EBA8E8" d="M14 4h4v4h-4zM12 8h8v4h-8zM8 12h16v4H8z"/>
+  <path fill="#FFE5AE" d="M12 16h8v2h2v4H10v-4h2z"/>
+  <path fill="#FFF2C9" d="M12 16h8v4h-8z"/>
+  <path fill="#FFE06E" d="M10 12h12v2H10z"/>
+  <path fill="#EBA8E8" d="M10 22h12v6H10zM6 24h4v8H6zM22 24h4v8h-4zM8 28h6v8H8zM18 28h6v8h-6z"/>
+  <path fill="#FFCEF4" d="M12 22h8v2h-8zM10 28h4v4h-4zM18 28h4v4h-4z"/>
+</svg>

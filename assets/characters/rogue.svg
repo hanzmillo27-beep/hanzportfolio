@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40" fill="none" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">Green pixel rogue</title>
+  <path fill="#579B32" d="M12 4h8v2h4v4h2v10h-4v2h4v12h-4v2h-6v-6h-2v6H8v-2H4V22h6v-2H6V10h2V6h4z"/>
+  <path fill="#9CDC52" d="M12 6h8v2h4v12h-4v2h4v4h2v6h-4v-4H10v4H6v-6h2v-4h4v-2H8V10h4z"/>
+  <path fill="#D2F37F" d="M12 6h8v2h2v4H10V8h2z"/>
+  <path fill="#FFE0AA" d="M12 12h8v2h2v6H10v-6h2z"/>
+  <path fill="#FFF2C9" d="M12 12h8v4h-8z"/>
+  <path fill="#B6EB70" d="M10 20h12v4H10zM8 26h6v10H8zM18 26h6v10h-6z"/>
+  <path fill="#9CDC52" d="M6 24h4v8H6zM22 24h4v8h-4z"/>
+  <path fill="#D2F37F" d="M12 24h8v2h-8zM8 26h4v4H8zM20 26h4v4h-4z"/>
+</svg>

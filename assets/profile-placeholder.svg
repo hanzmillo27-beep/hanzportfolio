@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">A stylized anonymous silhouette on a charcoal background. Replace this illustration with your own portrait.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#31362c"/><stop offset="1" stop-color="#131713"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6afa0"/><stop offset=".55" stop-color="#667260"/><stop offset="1" stop-color="#414b3c"/></linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4c5547"/><stop offset="1" stop-color="#21271f"/></linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#c9f875" stroke-opacity=".06"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#c9f875" stop-opacity=".22"/><stop offset="1" stop-color="#c9f875" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="url(#back)" d="M0 0h640v760H0z"/>
+  <path fill="url(#grid)" d="M0 0h640v760H0z"/>
+  <ellipse cx="319" cy="310" rx="310" ry="340" fill="url(#glow)"/>
+  <circle cx="319" cy="307" r="220" fill="none" stroke="#b8d594" stroke-opacity=".14"/>
+  <circle cx="319" cy="307" r="185" fill="none" stroke="#b8d594" stroke-opacity=".1" stroke-dasharray="3 10"/>
+  <path d="M69 760c6-175 76-237 195-254h110c124 17 191 80 198 254" fill="url(#shirt)"/>
+  <path d="M260 458h116v102c-26 43-89 44-116 0z" fill="url(#face)"/>
+  <path d="M316 184c-92 0-137 69-128 162 8 90 58 160 129 160 69 0 123-70 131-160 9-93-37-162-132-162z" fill="url(#face)"/>
+  <path d="M190 338c-21-87-5-166 87-188 28-37 110-27 147 26 34 16 47 100 23 170-9-28-18-69-30-88-53 18-125 12-164-11-13 26-40 47-63 91z" fill="#171e17"/>
+  <path d="M264 506l54 63-56 57-45-106m158-14-57 63 58 57 47-105" fill="#373f32"/>
+  <path d="M318 569v191" fill="none" stroke="#69745c" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M80 80h32M80 80v32m448-32h32v32M80 648v32h32m448-32v32h-32" fill="none" stroke="#c9f875" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="230" y="679" width="180" height="36" rx="18" fill="#151b13" stroke="#7e925c" stroke-opacity=".4"/>
+  <circle cx="251" cy="697" r="4" fill="#c9f875"/>
+  <text x="267" y="702" fill="#c8d1c2" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">YOUR PHOTO HERE</text>
+</svg>

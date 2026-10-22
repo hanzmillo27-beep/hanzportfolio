@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120" fill="none" shape-rendering="crispEdges" aria-hidden="true">
+  <!-- Small treasures, assembled on a four-pixel grid. -->
+  <g fill="#21152f">
+    <!-- A climbing plant and its pot. -->
+    <path d="M50 80h4V52h-4V32h4v16h12V28h4v28H54v24h24v4h4v8h-4v20H34V92h-4v-8h4v-4z"/>
+    <path d="M46 52H34v-4h-8v-8h-4V24h4v-4h12v4h8v8h4v16h-4zM66 32V20h4v-8h8V8h16v4h4v12h-4v8h-8v4H70v-4zM54 76H42v-4h-8v-8h-4V52h4v-4h12v4h8v8h4v12h-4zM70 60V48h4v-8h8v-4h12v4h8v12h-4v8h-8v4H74v-4z"/>
+  </g>
+  <path fill="#dcff50" d="M30 24h8v4h8v12h-4v-8h-4v12h4v4h-8v-4h-4v-8h-4v-8h4zM78 16h4v-4h12v8h-8v4h8v4h-8v4H74v-8h4zM38 52h8v4h4v12h-4v-8h-4v8h4v4h-4v-4h-4v-8h-4v-4h4zM82 44h4v-4h8v4h4v8h-8v4h-4v4h-8v-8h4z"/>
+  <path fill="#39c853" d="M30 28h4v12h4v4h-4v-4h-4zM70 24h4v8h8v-4h4v4h-4v4H70zM34 56h4v8h4v4h-4v-4h-4zM74 48h4v12h8v-4h4v4h-4v4H74z"/>
+  <path fill="#b88aff" d="M34 84h44v4H34zM38 92h36v16H38z"/>
+  <path fill="#3048ef" d="M38 92h8v16h-8zM46 104h28v4H46z"/>
+  <path fill="#66e1df" d="M38 84h28v4H38z"/>
+
+  <!-- A warm cup of coffee. -->
+  <g fill="#66e1df">
+    <path d="M157 25h4v8h-4v8h4v8h-4v-8h-4v-8h4zM177 17h4v8h-4v8h4v8h-4v-8h-4v-8h4z"/>
+    <path d="M141 108h68v4h-68z"/>
+  </g>
+  <path fill="#21152f" d="M141 60h52v4h12v4h4v20h-4v4h-12v12h-4v4h-44v-4h-4z"/>
+  <path fill="#ff5aab" d="M145 64h44v36h-4v4h-36v-4h-4zM193 68h8v4h4v12h-4v4h-8v-4h8V72h-8z"/>
+  <path fill="#bd3285" d="M145 92h4v8h36v-4h4v4h-4v4h-36v-4h-4z"/>
+  <path fill="#ff8845" d="M149 68h36v8h-36z"/>
+  <path fill="#21152f" d="M153 68h28v4h-28z"/>
+  <path fill="#ffe246" d="M157 84h4v-4h4v4h4v-4h4v8h-4v4h-8v-4h-4z"/>
+
+  <!-- A pocket game, ready for one more level. -->
+  <path fill="#21152f" d="M258 40h84v4h4v64h-4v4h-84v-4h-4V44h4z"/>
+  <path fill="#a16bff" d="M258 44h84v64h-84z"/>
+  <path fill="#ff5aab" d="M262 44h76v4h-76zM258 48h4v52h-4z"/>
+  <path fill="#3048ef" d="M338 48h4v60h-80v-4h76z"/>
+  <path fill="#21152f" d="M278 48h44v48h-44z"/>
+  <path fill="#66e1df" d="M282 52h36v40h-36z"/>
+  <path fill="#3048ef" d="M290 60h8v4h4v-4h8v8h-4v4h-4v4h-4v-4h-4v-4h-4zM286 84h28v4h-28z"/>
+  <path fill="#21152f" d="M266 68h4v8h8v4h-8v8h-4v-8h-8v-4h8zM330 68h8v8h-8zM322 80h8v8h-8zM290 100h8v4h-8zM302 100h8v4h-8z"/>
+  <path fill="#ff8845" d="M330 68h4v4h-4zM322 80h4v4h-4z"/>
+
+  <!-- A patient little desk companion. -->
+  <path fill="#21152f" d="M430 32h8v4h4v4h20v-4h4v-4h8v24h4v24h-4v24h-4v4h-52v-4h-12v-4h-8v-8h-4V72h4v-4h8v8h-4v16h4v4h8v-8h4V60h4V44h4z"/>
+  <path fill="#ff5aab" d="M434 40h4v8h-4zM466 40h4v8h-4z"/>
+  <path fill="#dcff50" d="M434 60h12v8h-12zM458 60h12v8h-12z"/>
+  <path fill="#21152f" d="M438 60h4v8h-4zM462 60h4v8h-4z"/>
+  <path fill="#ff8845" d="M450 72h4v4h-4z"/>
+  <path fill="#a16bff" d="M434 96h4v8h-4zM458 96h4v8h-4z"/>
+
+  <!-- A couple of loose pixels on the desk. -->
+  <path fill="#ff8845" d="M113 92h4v-4h4v4h4v4h-4v4h-4v-4h-4z"/>
+  <path fill="#ffe246" d="M370 48h4v-4h4v4h4v4h-4v4h-4v-4h-4z"/>
+  <path fill="#3048ef" d="M22 112h76v4H22zM250 112h104v4H250zM410 108h72v4h-72z"/>
+</svg>

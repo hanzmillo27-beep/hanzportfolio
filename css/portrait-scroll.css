@@ -1,0 +1,76 @@
+/* The photo follows the scroll into a reserved spot beside the wordmark. */
+:root {
+    --portrait-progress: 0;
+    --portrait-scene-opacity: 1;
+}
+
+.brand-lockup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 132px;
+    min-height: 44px;
+}
+
+.brand-wordmark {
+    display: block;
+    transform: translateX(calc(52px * var(--portrait-progress)));
+}
+
+.navbar-avatar {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.photo-motion-ready .portrait-scene {
+    opacity: var(--portrait-scene-opacity);
+}
+
+/* A stable starting rectangle keeps mouse tilt from moving the flight's origin. */
+.photo-motion-ready .portrait-card {
+    transform: none;
+    transition: box-shadow .25s, border-color .25s;
+}
+
+.portrait-in-motion .portrait-image {
+    opacity: 0;
+}
+
+.scroll-portrait {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 55;
+    overflow: hidden;
+    pointer-events: none;
+    background: var(--yellow);
+    border: 3px solid var(--line);
+    box-shadow: 5px 5px 0 var(--pink);
+    contain: layout paint;
+    will-change: transform;
+}
+
+.scroll-portrait[hidden] {
+    display: none;
+}
+
+.scroll-portrait > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Native dialogs use the browser top layer; keep the fallback above the photo too. */
+.preview-dialog { z-index: 80; }
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-portrait { will-change: auto; }
+}

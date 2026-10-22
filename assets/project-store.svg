@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Online store project preview</title>
+  <desc id="desc">A sample minimal sneaker storefront with an illustrated lime and charcoal running shoe.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#242b23"/><stop offset="1" stop-color="#151a16"/></linearGradient><linearGradient id="shoe" x2=".7" y2="1"><stop stop-color="#e0efca"/><stop offset="1" stop-color="#91ae70"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v520H0z"/>
+  <rect x="59" y="48" width="682" height="433" rx="12" fill="#e9e9e2" stroke="#68715f"/>
+  <path d="M71 48h658a12 12 0 0 1 12 12v23H59V60a12 12 0 0 1 12-12" fill="#d2d4c9"/>
+  <g fill="#8e9785"><circle cx="78" cy="66" r="3"/><circle cx="90" cy="66" r="3"/><circle cx="102" cy="66" r="3"/></g>
+  <rect x="315" y="57" width="171" height="17" rx="5" fill="#e6e8df"/>
+  <text x="400" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#77816c">stride / new arrivals</text>
+  <path d="M59 83h682v51H59" fill="#f0f0e9"/>
+  <text x="86" y="116" font-family="Arial, sans-serif" font-weight="900" font-size="23" letter-spacing="-1" fill="#20271d">stride.</text>
+  <g fill="#59624e" font-family="Arial, sans-serif" font-size="8"><text x="343" y="112">SHOP</text><text x="402" y="112">COLLECTIONS</text><text x="503" y="112">OUR STORY</text><text x="678" y="112">BAG (0)</text></g>
+  <path d="M59 134h682v303H59z" fill="#dfe3d4"/>
+  <g fill="#15200f" font-family="Arial, sans-serif" font-weight="800" font-size="58" letter-spacing="-3"><text x="88" y="222">Move</text><text x="88" y="276">your way.</text></g>
+  <text x="91" y="306" fill="#5d6853" font-family="Arial, sans-serif" font-size="10">Everyday comfort. Exceptional energy.</text>
+  <rect x="90" y="329" width="119" height="31" rx="2" fill="#26311e"/>
+  <text x="106" y="349" fill="#e4efda" font-family="Arial, sans-serif" font-size="9">EXPLORE THE DROP</text><path d="M190 345h8m-3-3 3 3-3 3" fill="none" stroke="#c9f875"/>
+  <circle cx="557" cy="278" r="125" fill="#c9f875"/>
+  <circle cx="557" cy="278" r="105" fill="none" stroke="#97bd58" stroke-width="1" opacity=".45"/>
+  <ellipse cx="562" cy="379" rx="129" ry="14" fill="#7a885f" opacity=".22"/>
+  <g transform="rotate(-17 547 291)">
+    <path d="M406 306c18-13 27-30 41-57l21-39 29 14 25 30 49 7 46-29c14 3 22 10 25 24l6 38 25 21c19 16 20 30 6 41-50 21-116 18-170 6l-92-18c-12-4-16-19-11-28z" fill="url(#shoe)" stroke="#6f825c" stroke-width="2"/>
+    <path d="m452 237 18-26 27 13 25 30-37-4z" fill="#374333"/>
+    <path d="M417 323c73 18 181 49 264 16l-2 18c-65 24-142 14-186 5l-78-19z" fill="#f8faee" stroke="#8b9b75" stroke-width="2"/>
+    <path d="m478 255 22-3m-29 12 30-3m-34 12 34-2m-36 12 35-2" stroke="#ecf5de" stroke-width="5" stroke-linecap="round"/>
+    <path d="m515 288 29 15 64-24-56 42-40-9z" fill="#2e3c26"/>
+    <path d="m618 245 12 3 7 50-12 3z" fill="#35452a"/>
+    <path d="M433 304c14 8 29 8 45 5m-44-13c13 8 28 9 40 7" fill="none" stroke="#7a9165" stroke-width="1.5"/>
+    <g fill="#415133"><circle cx="527" cy="274" r="1.5"/><circle cx="535" cy="276" r="1.5"/><circle cx="543" cy="278" r="1.5"/><circle cx="551" cy="280" r="1.5"/><circle cx="524" cy="281" r="1.5"/><circle cx="532" cy="283" r="1.5"/></g>
+  </g>
+  <text x="649" y="403" fill="#46513c" font-family="Arial, sans-serif" font-size="9" letter-spacing="1">01 / 03</text>
+  <path d="M59 437h682v32a12 12 0 0 1-12 12H71a12 12 0 0 1-12-12" fill="#f0f0e9"/>
+  <g fill="#68705f" font-family="Arial, sans-serif" font-size="8" letter-spacing="1.5"><text x="107" y="463">BUILT FOR EVERY DAY</text><text x="332" y="463">LIGHT ON YOUR FEET</text><text x="558" y="463">MADE TO GO FURTHER</text></g>
+</svg>
